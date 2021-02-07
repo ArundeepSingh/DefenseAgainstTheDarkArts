@@ -48,7 +48,7 @@ In addition, please read "The command-line, for cybersec" by Rob Graham: https:/
 
 Let's further hone your basic security skills by playing wargames.  This set of wargames is offered by OverTheWire (http://overthewire.org/wargames/).
 
-Play the Bandit wargame at http://overthewire.org/wargames/bandit/, beginning with level 0.  Play as many levels as you can.  To get credit, show proof that you have played the Bandit wargames by emailing me screenshot of the highest level you have completed.
+Play the Bandit wargame at http://overthewire.org/wargames/bandit/, beginning with level 0.  Play as many levels as you can.  To get credit, show proof that you have played the Bandit wargames by submitting a screenshot of your terminal screen that shows the highest level you have completed (e.g., via Canvas).
 
 _This part is dedicated to Olivia MacDougal, Class of 2018_
 
