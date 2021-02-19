@@ -30,7 +30,7 @@ Using Python and scapy, write a program named `alarm.py` that provides user the 
 * Xmas scan
 * Usernames and passwords sent in-the-clear via HTTP Basic Authentication, FTP, and IMAP
 * Nikto scan
-* Someone scanning for Remote Desktop Protocol (RDP)
+* Someone scanning for Server Message Block (SMB) protocol
 
 If an incident is detected, alert must be displayed in the format:
 
@@ -111,4 +111,4 @@ This lab is worth 20 points.
   - XMAS scan (2 points)
   - NULL scan (2 points)
   - Nikto scan (2 points)
-  - Someone scanning for Remote Desktop Protocol (RDP) (4 points)
+  - Someone scanning for Server Message Block (SMB) protocol (4 points)
