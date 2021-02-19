@@ -42,7 +42,7 @@ Your program does not need to support saving the stream of packets to a PCAP fil
 
 No credit if you program crashes or if exceptions are not handled properly.
 
-## Part 2: Running and Using the Tool
+### Running and Using the Tool
 In Kali Linux, run: `sudo python3 alarm.py`. By default with no arguments, the tool shall sniff on network interface eth0. The tool must handle three command line arguments:
 
 `-i INTERFACE: Sniff on a specified network interface`
@@ -63,14 +63,14 @@ Example 3: `sudo python3 alarm.py -i en0` will sniff packets on a wireless inter
 
 When sniffing on a live interface, the tool must keep running. To quit it, press Control-C
 
-### Part 2: Getting Started
+### Getting Started
 Here is a working `alarm.py`: https://gist.github.com/mchow01/f0f498f29d2b3bd095b8c93172c6ecf7
 
 Feel free to modify the `packetcallback` function. What has been written for you: the handling and parsing of command line arguments, reading of PCAP file, and sniffing of network. Download and use inside of your Kali VM.
 
 If you go web browsing in the virtual machine with the alarm running, you will notice the alarm will go off...
 
-### Part 2: Testing Your Tool
+### Testing Your Tool
 Your tool must be able to detect the usernames and passwords sent in-the-clear in `set1.pcap`, `set2.pcap`, and `set3.pcap` from the Packet Sleuth lab (Lab 2).
 
 Here are PCAPs you can also use to test your alarm:
@@ -80,7 +80,7 @@ Here are PCAPs you can also use to test your alarm:
 3. null.pcap: https://www.cs.tufts.edu/comp/116/null.pcap
 4. nikto.pcap: https://www.cs.tufts.edu/comp/116/nikto.pcap
 
-### Part 2: References
+### References
 * Scapy documentation: https://scapy.readthedocs.io/en/latest/
 * Scapy Cheat Sheet (SANS Institute): https://wiki.sans.blue/Tools/pdfs/ScapyCheatSheet_v0.2.pdf
 
